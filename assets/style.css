@@ -1,0 +1,43 @@
+.center-card {
+  margin-top: 13vh;
+  width: auto;
+  padding: 15px 30px;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+
+.center-card h3 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.instructions {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.btn-add {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.list-items {
+  width: auto;
+  margin: unset;
+  padding: unset;
+}
+
+.list-items ul li {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 7px 16px;
+  list-style: none;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.list-items ul {
+  padding: unset;
+}

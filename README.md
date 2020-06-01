@@ -1,5 +1,5 @@
 # To-do-List-Js-Projects-
-## Status: Working
+## Status: Under-developing
 These are the practice projects of Vanilla JavaScript
 
 This is the first project build along-side with VJs

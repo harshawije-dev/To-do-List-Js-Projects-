@@ -13,20 +13,8 @@ const listItem = (val) => {
   let li = document.createElement("li");
 
   li.appendChild(document.createTextNode(val));
-  setAttributes(li, { id: "child-attr", onclick: "dropEle()" });
+  // li.setAttribute("id", "child-item");
   return ul.appendChild(li);
 };
 
 // Function for dropping the completed items from the list
-
-const dropEle = () => {
-  const completed = (document.getElementById(
-    "child-attr"
-  ).style.textDecorationLine = "line-through");
-  const extStyle = (document.getElementById("child-attr").style.border =
-    "unset");
-  return {
-    completed: completed,
-    extStyle: extStyle,
-  };
-};

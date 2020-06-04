@@ -44,7 +44,12 @@
   font-weight: bold;
   margin: 10px 0px;
 }
-
+.child-drop {
+  border: 3px solid rgba(119, 119, 119, 0.849);
+  color: #a9a9a9;
+  text-decoration-line: line-through;
+  opacity: 0.56;
+}
 .list-items ul {
   padding: unset;
 }

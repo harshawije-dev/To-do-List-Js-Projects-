@@ -13,8 +13,14 @@ const listItem = (val) => {
   let li = document.createElement("li");
 
   li.appendChild(document.createTextNode(val));
-  // li.setAttribute("id", "child-item");
+  setAttributes(li, {
+    id: "child-attr",
+    onclick: "dropEle(this)",
+  });
   return ul.appendChild(li);
 };
 
 // Function for dropping the completed items from the list
+const dropEle = (e) => {
+  return e.setAttribute("class", "child-drop");
+};

@@ -1,5 +1,5 @@
 # To-do-List-Js-Projects-
-## Status: Under-developing
+## 
 
 These are the practice projects of Vanilla JavaScript
 

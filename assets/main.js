@@ -1,9 +1,19 @@
-/*Adding a New Item into the To-do List-----
+/*
+Adding a New Item into the To-do List-----
+You're always welcome to do changes as wish
+But, don't forget to give credits
   Function for entering the new item
 */
 const addItem = () => {
   let popup = prompt("Enter Your Task");
-  return listItem(popup);
+  //Check the input field is "null" or "cancel"
+  if (popup) {
+    return listItem(popup);
+  } else if (popup === "") {
+    alert("User input is empty");
+  } else {
+    return 1;
+  }
 };
 
 //Function for adding the new Item for the To-do List
